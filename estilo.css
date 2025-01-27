@@ -1,0 +1,361 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.5;
+  max-width: 1300px;
+  margin: 0 auto; 
+  padding: 0 20px; 
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: white;
+}
+
+.header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.header nav ul li {
+  margin-left: 20px;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f9f9f9;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: #285E67;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.images {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.image-container img {
+  width: 90%;
+  border-radius: 10px;
+}
+
+/* Wellbeing Section */
+.wellbeing {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.wellbeing h2 {
+  width: 100%;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.icons {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex: 1;
+}
+
+.icon-block {
+  text-align: center;
+  width: 200px;
+}
+
+.icon-block .icon {
+  width: 60px;
+  height: 60px;
+  background-color: #2d5c56; /* Verd fosc */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  margin: 0 auto 15px;
+}
+
+.icon-block .icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.icon-block p {
+  font-size: 0.9em;
+  color: #555;
+  line-height: 1.4;
+}
+
+
+.illustration {
+  flex: 1;
+  text-align: right;
+  padding-left: 5px;
+}
+
+.illustration img {
+  max-width: 1000%;
+  height: auto;
+}
+
+/* Fresh Organic Produce Section */
+.fresh-produce {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  flex: 1;
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.content-container {
+  flex: 2;
+  padding-left: 20px;
+}
+
+.content-container h2 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.content-container p {
+  margin-bottom: 15px;
+  color: #7f8c8d;
+}
+
+.content-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.content-container ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.content-container ul li::before {
+  margin-right: 10px;
+  color: #27ae60;
+}
+
+/* Footer */
+.footer {
+  text-align: left;
+  padding: 20px;
+  background: #285E67;
+  color: white;
+}
+
+.footer nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer nav ul li {
+  margin: 0 10px;
+}
+
+.footer .social a {
+  text-align: left;
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+.healthy-eating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.healthy-eating .illustration img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.info-box {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wellbeing-banner {
+  text-align: center;
+  background-image: url('Imagenes/banner-background.png');
+  background-size: cover;
+  padding: 50px 0;
+  color: white;
+}
+
+.join-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.plant-protective {
+  background-color: #fceae8;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.feature-item {
+  text-align: center;
+}
+.wellbeing-section {
+
+  background-image: url('imagenes/tyler-lastovich-AVzByhROPbs-unsplash\ 1.png');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  
+  .wellbeing-content {
+  max-width: 600px;
+  text-align: center;
+  color: #fff;
+  }
+  
+  .wellbeing-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  }
+  
+  .wellbeing-description {
+  font-size: 18px;
+  margin-bottom: 40px;
+  }
+  
+  .wellbeing-cta {
+  display: inline-block;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .wellbeing-cta:hover {
+  background-color: #333;
+  color: #fff;
+  }
+  
+  .plant-protective-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  }
+  
+  .plant-icon {
+  margin: 0 20px;
+  width: 60px;
+  height: 60px;
+  }
+  
+  .plant-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  }
+  
+  @media (max-width: 768px) {
+  
+  .wellbeing-title {
+  font-size: 28px
+  }
+  
+  .wellbeing-description {
+  font-size: 16px;
+  }
+  
+  .plant-icon {
+  width: 50px;
+  height: 50px;
+  }
+  
+  }
